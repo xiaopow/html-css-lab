@@ -64,7 +64,7 @@ table {
 /*body*/
 
 body {
-  background: url(../images/bg_body.jpg) repeat;
+  background: url(../images/bg_wrapper.png) repeat-x, url(../images/bg_body.jpg) repeat;
   font-family: "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*background-size: cover;*/
 }
@@ -135,7 +135,6 @@ a {
 /*Top Navigation*/
 
 .top-bar {
-  background-color: black;
   color: lightgray;
   height: 70px;
 }
@@ -167,12 +166,11 @@ a {
 
 header {
   height: 335px;
-  background: url(../images/bg_blurb.jpg) repeat;
   background-size: auto 350px;
 }
 
 .logo {
-  padding-top: 20px;
+  padding-top: 25px;
   float: left;
 }
 
@@ -230,6 +228,7 @@ header {
 .pitch-box {
   height: 85px;
   box-shadow: -1px -1px 1px gray;
+  background: url(../images/bg_blurb.jpg) top left / contain repeat-x ;
 }
 
 .pitch {
